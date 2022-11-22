@@ -30,10 +30,22 @@
         #exec-bio.alert {
             background: red;
         }
+        h1 {
+            color: palevioletred;
+        }
+        em {
+            color: aqua;
+        }
+        em.magenta {
+            color: magenta;
+        }
+        #h1-css-id {
+            color: brown;
+        }
     </style>
 </head>
 <body>
-    <h1>I'm an h1</h1>
+    <h1 id="h1-css-id" class="emphasized-green magenta">I'm an h1</h1>
     <ul>
         <li><a href="https://example.com" id="special-link">Link</a></li>
         <li><a href="https://example.com" class="regular-link">Link</a></li>
@@ -45,7 +57,7 @@
         <a href="https://example.com">I'am a link</a></div>
     <div class="bio-box">
         <a href="https://example.com">I'am a link</a></div>
-    <div class="bio-box">
+    <div class="bio-box alert">
         <a href="https://example.com">I'am a link</a></div>
 </body>
 </html>
